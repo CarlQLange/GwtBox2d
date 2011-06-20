@@ -1,0 +1,20 @@
+jar {
+  from 'src/main/java'
+  from 'src/main/resources'
+  from 'src/gwtemul/java'
+}
+
+configurations.providedDependencies.extendsFrom configurations.gwt
+
+sourceSets {
+  gwtemul {
+    java {
+      exclude '**'
+    }
+  }		    
+}
+
+eclipseProject.buildCommand 'com.google.gwt.eclipse.core.gwtProjectValidator'
+eclipseProject.natures 'com.google.gwt.eclipse.core.gwtNature'
+eclipseClasspath.containers 'com.google.gwt.eclipse.core.GWT_CONTAINER'
+eclipseClasspath.minusConfigurations=[configurations.gwt]

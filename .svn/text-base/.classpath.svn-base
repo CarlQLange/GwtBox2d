@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry excluding="**" kind="src" path="src/gwtemul/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER" exported="true"/>
+	<classpathentry sourcepath="/home/pruggia/.gradle/cache/junit/junit/sources/junit-4.7-sources.jar" kind="lib" path="/home/pruggia/.gradle/cache/junit/junit/jars/junit-4.7.jar" exported="true"/>
+</classpath>
