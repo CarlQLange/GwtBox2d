@@ -1,0 +1,1 @@
+A (J)Box2d wrapper for GWT. This is essentially a quick-fix of http://code.google.com/p/gwtbox2d/ which required an odd source folder setup. You should be able to simply download the jar and just go. Enjoy!
